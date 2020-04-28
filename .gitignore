@@ -1,19 +1,25 @@
-*.class
-target/
-logs/
-.classpath
-.settings
-.project
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-.tern-project
+.vagrant
+*.vdi
+*.keyring
+fetch/*
+group_vars/all
+group_vars/mons
+group_vars/osds
+group_vars/mdss
+group_vars/rgws
+group_vars/restapis
+*.DS_Store
+*.pyc
+*.sw?
+.tox
+ceph-ansible.spec
+*.retry
+*.pytest_cache
+*.tgz
+*.bz2
+*.gz
+*.docx
+*.pdf
+__debug_bin
+operator/bin/*
+operator/pkg/*
